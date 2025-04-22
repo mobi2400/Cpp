@@ -1,0 +1,56 @@
+TYPES OF DATA STRUCTURE
+1. Array- it can be declare by two TYPES
+          stack int A[10]-- here memory is fixed
+          heap  *A = new int[10]-- it is dynamic memory allocation storage size can be increased
+
+2. linked list - kind of chain structure data where new data can be added anytime same as adding chain
+addition can be done forward and backward too
+
+MORE TYPE OF DATA STRUCTURE ON THE BASIS OF MODIFICATION
+    stack
+    que deque
+    priority-que
+    map
+    set
+
+STL -- collection of many header file or library which are inbuild to perform many data structure operations
+  it compromise-
+                algorithm
+                containers
+                iterators
+
+            TYPES OF algorithm U CAN perform
+                search() 
+                sort()
+                binary_search()
+                reverse()
+                concat()
+                copy()
+                union()
+                intersection()
+                merge()
+                heap()
+            TYPES OF containers available
+                vector -- push_back()
+                       -- pop_back()
+                       -- insert()
+                       -- remove()
+                       -- size()
+                       -- empty()
+
+                list -- push_front()
+                     -- pop_front()
+                     -- back()
+                     -- REST ALL SAME AS vector
+
+                forward_list -- SAME FUNCTION AS list
+
+                deque -- SAME AS vector BUT FUNCTION IS SAME AS list
+                   
+                priority_queue
+                stack - LIFO(last in first out)
+                set - containonly unique DATA
+                multiset -- allow duplicate DATA
+                map -- store <key;value> pair
+                multiMap -- duplicate keys are allowed but value    should be  different
+
