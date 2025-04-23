@@ -1,5 +1,6 @@
-#include <iostream>
-#include <vector>
+// #include <iostream>
+// #include <vector>
+#include<bits/stdc++.h>// sexy library add all important library by itself
 using namespace std;
 int main(){
     vector<int> v={10,20,30,40};
